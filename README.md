@@ -40,7 +40,7 @@ As players travel the real <b>world</b>, their avatar moves along the game's map
                     └── FileUtil.java
  ```
  
-[KeywordDetector.java](https://github.com/suleimana/Keyword-Detector/blob/master/src/com/lab/keyworddetector/KeywordDetector.java) class contains the main algorithm to detect the and replace the keywords. 
+[KeywordDetector.java](https://github.com/suleimana/Keyword-Detector/blob/master/src/com/lab/keyworddetector/KeywordDetector.java) class contains the main algorithm to detect and replace the keywords. 
 
 ## Running the code
 
@@ -60,7 +60,7 @@ So for an input file with N chars and one Keyword with L length, it will take O(
 
 Therefore, for K number of keywords (such **L<sub>1</sub>,L<sub>2</sub>,L<sub>3</sub>,...,L<sub>k</sub>**) the time will be: **NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub>**. 
 
-If we assume that L only contains ASCII chars **0-127** then can consider it as constant **C**.
+If we assume that L only contains ASCII chars **0-127** then we can consider it as constant **C**.
 
 **NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub> =** 
 
