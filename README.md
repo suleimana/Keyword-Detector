@@ -62,10 +62,10 @@ Therefore, for K number of keywords (such **L<sub>1</sub>,L<sub>2</sub>,L<sub>3<
 
 If we assume that L only contains ASCII chars **0-127** then can cosider it as contanct **C**.
 
-**NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub> = **
+**NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub> =** 
 
-**NC + NC + NC .... + NC = **
+**NC + NC + NC .... + NC =** 
 
-**(NC)K = **
+**(NC)K =**
 
 Drop the constant and the time comlixty will be become **O(NK)**.
