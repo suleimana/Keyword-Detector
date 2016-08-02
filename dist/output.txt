@@ -1,0 +1,25 @@
+dir,line
+ant -f /Users/suleimanalrosan/projects/KeywordDetector -Dnb.internal.action.name=rebuild clean jar
+init:
+deps-clean:
+Updating property file: /Users/suleimanalrosan/projects/KeywordDetector/build/built-clean.properties
+Deleting directory /Users/suleimanalrosan/projects/KeywordDetector/build
+clean:
+init:
+deps-jar:
+Created <b>dir</b>: /Users/suleimanalrosan/projects/KeywordDetector/build
+Updating property file: /Users/suleimanalrosan/projects/KeywordDetector/build/built-jar.properties
+Created <b>dir</b>: /Users/suleimanalrosan/projects/KeywordDetector/build/classes
+Created <b>dir</b>: /Users/suleimanalrosan/projects/KeywordDetector/build/empty
+Created <b>dir</b>: /Users/suleimanalrosan/projects/KeywordDetector/build/generated-sources/ap-source-output
+Compiling 2 source files to /Users/suleimanalrosan/projects/KeywordDetector/build/classes
+compile:
+Created <b>dir</b>: /Users/suleimanalrosan/projects/KeywordDetector/dist
+Copying 1 file to /Users/suleimanalrosan/projects/KeywordDetector/build
+Nothing to copy.
+Building jar: /Users/suleimanalrosan/projects/KeywordDetector/dist/KeywordDetector.jar
+To run this application from the command <b>line</b> without Ant, try:
+java -jar "/Users/suleimanalrosan/projects/KeywordDetector/dist/KeywordDetector.jar"
+jar:
+BUILD SUCCESSFUL (total time: 1 second)
+
