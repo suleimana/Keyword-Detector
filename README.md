@@ -67,14 +67,4 @@ NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub> =
 NC + NC + NC .... + NC = 
 (NC)K = 
 
-Drop the constant and the time comlixty will be become O(NK).
-
-
-
-
-
-
-
-
-
-
+Drop the constant and the time comlixty will be become **O(NK)**.
