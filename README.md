@@ -56,7 +56,18 @@ java -jar KeywordDetector.jar
 
 The code go through the whole file (char by char) once to detect one keyword. We also comapre if we have match with the keyword. 
 
-So for an input file with N chars and one Keyword with L length, it will take N*L. Therefore, for K number of keywords (such L<sub>1</sub>,L<sub>2</sub>,L<sub>3</sub>,...,L<sub>k</sub>) the time will be: N*L<sub>1</sub> + N*L<sub>2</sub> + N*L<sub>3</sub> + N*L<sub>k</sub>. 
+So for an input file with N chars and one Keyword with L length, it will take O(NL). 
+
+Therefore, for K number of keywords (such L<sub>1</sub>,L<sub>2</sub>,L<sub>3</sub>,...,L<sub>k</sub>) the time will be: NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub>. 
+
+If we assume that L only contains ASCII chars 0-127 then can cosider it as contanct C.
+
+NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub> =
+
+NC + NC + NC .... + NC = 
+(NC)K = 
+
+Drop the constant and the time comlixty will be become O(NK).
 
 
 
