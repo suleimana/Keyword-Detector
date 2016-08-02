@@ -40,7 +40,7 @@ As players travel the real <b>world</b>, their avatar moves along the game's map
                     └── FileUtil.java
  ```
  
-KeywordDetector class contains the main algorithm to detect the and replace the keywords. 
+[KeywordDetector.java](https://github.com/suleimana/Keyword-Detector/blob/master/src/com/lab/keyworddetector/KeywordDetector.java) class contains the main algorithm to detect the and replace the keywords. 
 
 ## Running the code
 
