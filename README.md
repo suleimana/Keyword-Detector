@@ -1,7 +1,7 @@
 # Keyword-Detector
 
 
- Create a small java program that will put <b></b> tags around keywords in a given body of text. The program will take in a file input location and output location as arguments (Ex: format.java input.txt output.txt). The first line of the input file contains the comma delimited keywords.  The rest of the input file contains the text that needs to be tagged.  The output file contains the text with the keywords tagged. Also provide the time complixty of the algorithm. 
+ Create a small java program that will put <b></b> tags around keywords in a given body of text. The program will take in a file input location and output location as arguments (Ex: format.java input.txt output.txt). The first line of the input file contains the comma delimited keywords.  The rest of the input file contains the text that needs to be tagged.  The output file contains the text with the keywords tagged. Also provide the time complexity of the algorithm. 
  
  Example
 --------
@@ -28,7 +28,7 @@ As players travel the real <b>world</b>, their avatar moves along the game's map
  
 ## Solution
 
- Code located under [src folder](https://github.com/suleimana/Keyword-Detector/tree/master/src) . It has the follwing strcture:
+ Code located under [src folder](https://github.com/suleimana/Keyword-Detector/tree/master/src) . It has the following structure:
  ```
  .
 └── com
@@ -52,15 +52,15 @@ java -jar KeywordDetector.jar
 
 
 
-## Algorithm time complixty
+## Algorithm time complexity
 
-The code go through the whole file (char by char) once to detect one keyword. We also comapre if we have match with the keyword. 
+The code go through the whole file (char by char) once to detect one keyword. We also compare if we have match with the keyword. 
 
 So for an input file with N chars and one Keyword with L length, it will take O(NL). 
 
 Therefore, for K number of keywords (such **L<sub>1</sub>,L<sub>2</sub>,L<sub>3</sub>,...,L<sub>k</sub>**) the time will be: **NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub>**. 
 
-If we assume that L only contains ASCII chars **0-127** then can cosider it as contanct **C**.
+If we assume that L only contains ASCII chars **0-127** then can consider it as constant **C**.
 
 **NL<sub>1</sub> + NL<sub>2</sub> + NL<sub>3</sub> + NL<sub>k</sub> =** 
 
@@ -68,4 +68,4 @@ If we assume that L only contains ASCII chars **0-127** then can cosider it as c
 
 **(NC)K =**
 
-Drop the constant and the time comlixty will be become **O(NK)**.
+Drop the constant and the time complexity will be become **O(NK)**.
