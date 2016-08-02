@@ -3,8 +3,10 @@
 
  Create a small java program that will put <b></b> tags around keywords in a given body of text. The program will take in a file input location and output location as arguments (Ex: format.java input.txt output.txt). The first line of the input file contains the comma delimited keywords.  The rest of the input file contains the text that needs to be tagged.  The output file contains the text with the keywords tagged. Also provide the time complixty of the algorithm. 
  
-  Exmaple 
-  =======
+ # Exmaple
+ 
+ 
+ 
   
   input.txt
  -----------
